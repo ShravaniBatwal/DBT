@@ -1,0 +1,17 @@
+version: 2
+sources:
+  - name: salesforce_to_snowflake
+    database: salesforce
+    schema: raw
+    tables:
+      - name: Account
+        columns:
+          - name: id
+            description: "The primary key for this table"
+      - name: User
+      - name: Orders
+      - name: date_dimension
+
+
+
+
